@@ -1,4 +1,5 @@
 <template>
+<section>
   <div class="flex justify-between w-4/5 mx-auto items-center">
     <div class="flex items-center">
       <h1 class="text-5xl font-semibold">Matt’s Board</h1>
@@ -14,15 +15,24 @@
       <p @click="selectedBoardView=false" :class="[!selectedBoardView ? 'underline' : '', 'cursor-pointer']">List</p>
     </div>
   </div>
+  <div class="flex w-5/6 mx-auto">
+    <div v-for="(row, index) in rows" :key="index" class="h-auto border w-1/4 px-2">
+      <div v-for="(card,index) in row" :key="index" class="h-64 bg-red-500 w-full rounded my-4"></div>
+    </div>
+  </div>
+</section>
 </template>
 
 <script>
+import cards from "../assets/info.json";
+
 export default {
 data: function() {
   return {
       filterButtons:['Contact', 'Code', 'Product', 'Teaching'],
       activeFilter: '',
       selectedBoardView: true,
+      rows:cards.cards,
     }
   },
 methods: {
