@@ -1,75 +1,100 @@
 {
-  "cards":{
-    "getInTouch":[
-      {
-        "title": "Matt's Contact Info",
-        "short_blurb": "Want to have a conversation with Matt? Great! Because he’d love to chat with you. Here are some of the best places to reach him...",
-        "company": "Matt Basile",
-        "dates": "Present",
-        "tags": ["contact"]
-      },
-      {
-        "title": "Matt's Profile",
-        "short_blurb": "Learn a bit more about Matt from his dedicated profile page...",
-        "company": "Matt Basile",
-        "dates": "Present",
-        "tags": ["contact"]
-      }
-    ],
-    "experience":[
-      {
-        "title": "Product Management Associate",
-        "short_blurb": "I began at Monax as a Fullstack Engineer but slowly saw myself getting drawn into product related projects...",
-        "company": "Monax",
-        "dates": "March 2020 to Present",
-        "tags": ["product", "code"]
-      },
-      {
-        "title": "Fullstack Engineer",
-        "short_blurb": "I began at Monax as a Fullstack Engineer where I learned about what it takes to be a professional engineer on a small agile team...",
-        "company": "Monax",
-        "dates": "Sept. 2019 to March 2020",
-        "tags": ["product", "code"]
-      },
-      {
-        "title": "Team Lead and Student",
-        "short_blurb": "In the fall of 2019 I had a lot of internal discussion about what I wanted to do with my career. It was clear to me that I wanted to...",
-        "company": "Lambda School",
-        "dates": "Nov. 2018 to August 2019",
-        "tags": ["code"]
-      },
-      {
-        "title": "Production Assistant",
-        "short_blurb": "At the NBA I created content daily that was distributed to all major social media channels...",
-        "company": "NBA",
-        "dates": "Sept. 2016 to Sept. 2017",
-        "tags": ["media", "product"]
-      }
-    ],
-    "project":[
-      {
-        "title": "Co-founder and Engineer",
-        "short_blurb": "My brothers and I create Trivia Now! as way for folks to easily host trivia games with their friends...",
-        "company": "Trivia Now!",
-        "dates": "March 2020 to Present",
-        "tags": ["product", "code"]
-      },
-      {
-        "title": "Web Developer",
-        "short_blurb": "Coded the redesign of a 20+ year old codebase for an international celebrated watch store with thousands of site visitors...",
-        "company": "European Watch Co.",
-        "dates": "June 2019 to Present",
-        "tags": ["code", "product"]
-      }   
-    ],
-    "volunteer":[
-      {
-        "title": "Javascript Instructor ",
-        "short_blurb": "I spent 2-3 Saturdays a month teaching NYC high school students about the fundamentals of Web Development and Javascript...",
-        "company": "America on tech",
-        "dates": "Jan. 2020 to April 2020",
-        "tags": ["teaching", "code"]
-      }   
-    ]
-  }
+  "columns":[
+    {
+      "title": "Get In Touch",
+      "emoji": "📥",
+      "cards": [
+        {
+          "title": "Matt's Contact Info",
+          "short_blurb": "Want to have a conversation with Matt? Great! Because he’d love to chat with you. Here are some of the best places to reach him...",
+          "company": "Matt Basile",
+          "company_logo_src": "",
+          "dates": "Present",
+          "tags": ["contact"]
+        },
+        {
+          "title": "Matt's Profile",
+          "short_blurb": "Learn a bit more about Matt from his dedicated profile page...",
+          "company": "Matt Basile",
+          "company_logo_src": "",
+          "dates": "Present",
+          "tags": ["contact"]
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "emoji": "👔",
+      "cards":[
+        {
+          "title": "Product Management Associate",
+          "short_blurb": "I began at Monax as a Fullstack Engineer but slowly saw myself getting drawn into product related projects...",
+          "company": "Monax",
+          "company_logo_name": "require('@/assets/Monax.png')",
+          "dates": "March 2020 to Present",
+          "tags": ["product", "code"]
+        },
+        {
+          "title": "Fullstack Engineer",
+          "short_blurb": "I began at Monax as a Fullstack Engineer where I learned about what it takes to be a professional engineer on a small agile team...",
+          "company": "Monax",
+          "company_logo_name": "require('@/assets/Monax.png')",
+          "dates": "Sept. 2019 to March 2020",
+          "tags": ["product", "code"]
+        },
+        {
+          "title": "Team Lead and Student",
+          "short_blurb": "In the fall of 2019 I had a lot of internal discussion about what I wanted to do with my career. It was clear to me that I wanted to...",
+          "company": "Lambda School",
+          "company_logo_name": "require('@/assets/Lambda.png')",
+          "dates": "Nov. 2018 to August 2019",
+          "tags": ["code"]
+        },
+        {
+          "title": "Production Assistant",
+          "short_blurb": "At the NBA I created content daily that was distributed to all major social media channels...",
+          "company": "NBA",
+          "company_logo_name": "NBA",
+          "dates": "Sept. 2016 to Sept. 2017",
+          "tags": ["media", "product"]
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "emoji": "💻",
+      "cards":[
+        {
+          "title": "Co-founder and Engineer",
+          "short_blurb": "My brothers and I create Trivia Now! as way for folks to easily host trivia games with their friends...",
+          "company": "Trivia Now!",
+          "company_logo_name": "",
+          "dates": "March 2020 to Present",
+          "tags": ["product", "code"]
+        },
+        {
+          "title": "Web Developer",
+          "short_blurb": "Coded the redesign of a 20+ year old codebase for an international celebrated watch store with thousands of site visitors...",
+          "company": "European Watch Co.",
+          "company_logo_name": "EWC",
+          "dates": "June 2019 to Present",
+          "tags": ["code", "product"]
+        }   
+      ]
+    },
+    {
+      "title": "Other Ventures",
+      "emoji": "👨‍🏫",
+      "cards":[
+        {
+          "title": "Javascript Instructor ",
+          "short_blurb": "I spent 2-3 Saturdays a month teaching NYC high school students about the fundamentals of Web Development and Javascript...",
+          "company": "America on Tech",
+          "company_logo_name": "AOT",
+          "dates": "Jan. 2020 to April 2020",
+          "tags": ["teaching", "code"]
+        }   
+      ]
+    }
+  ]
 }

@@ -7,24 +7,19 @@
         <img class="rounded-full" src='./assets/Matts_pro.png' alt="Profile Image of Matt Basile"/>
       </div>
     </nav>
-    <board></board>
+    <board ></board>
   </section>
 </template>
 
 <script>
 import Board from './components/Board.vue'
-import cards from "./assets/info.json";
+
 
 export default {
   name: 'App',
   components: {
     Board
   },
-  data:function(){
-    return{
-      rowss:cards.cards,
-    }
-  }
 }
 </script>
 
