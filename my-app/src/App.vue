@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-blue-100">
+  <section class="bg-blue-100 h-full" >
     <nav class="flex px-8 h-20 justify-between items-center">
       <p class="text-2xl font-black text-blue-900">MB</p>
       <div class='flex items-center'>
